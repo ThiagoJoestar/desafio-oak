@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oak Tecnologia | Listagem de produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <h1>Desafio Oak Tecnologia</h1>
+</header>
+
+<body>
+
+    <div id="app">
+        <div id="product-form">
+            <h1>Cadastro de Produto</h1>
+            <form id="form">
+                <label for="nome">Nome do Produto:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="descricao">Descrição do Produto:</label>
+                <input type="text" id="descricao" name="descricao"><br><br>
+
+                <label for="valor">Valor do Produto:</label>
+                <input type="number" id="valor" name="valor" step="0.01" required><br><br>
+
+                <label for="disponivel">Disponível para Venda:</label>
+                <select id="disponivel" name="disponivel" required>
+                    <option value="sim">Sim</option>
+                    <option value="não">Não</option>
+                </select><br><br>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+
+        <div id="product-list">
+            <h1>Listagem de Produtos</h1>
+            <button id="btn-new-product">Cadastrar Novo Produto</button><br><br>
+            <table id="products-table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Produtos serão listados aqui -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p>&copy; 2024 - Thiago Piassi Della Betta</p>
+    <nav>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/thiagopiassi/">Linkedin</a></li>
+            <li><a href="https://wa.me/5511985427758">WhatsApp</a></li>
+            <li><a href="mailto:thi_piassi@hotmail.com">E-mail</a></li>
+            <li><a href="https://github.com/ThiagoJoestar">GitHub</a></li>
+            
+        </ul>
+    </nav>
+</footer>
+
+
+</html>
