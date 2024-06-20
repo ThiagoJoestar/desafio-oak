@@ -3,12 +3,12 @@
 
 Site simples feito para o Desafio para o estágio da Oak Tecnologia
 
-## O que foi pedido pela Oak:
+# O que foi pedido pela Oak:
 
 Prova experimental -  𝐒𝐞 𝐯𝐨𝐜𝐞̂ 𝐬𝐨𝐮𝐛𝐞𝐫 𝐚𝐥𝐠𝐮𝐦𝐚 𝐥𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐝𝐞 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐚𝐜̧𝐚̃𝐨 𝐞 𝐪𝐮𝐞𝐢𝐫𝐚 𝐩𝐚𝐬𝐬𝐚𝐫 𝐩𝐨𝐫 𝐞𝐬𝐭𝐞 𝐝𝐞𝐬𝐚𝐟𝐢𝐨, 𝐬𝐞𝐫𝐚́ 𝐮𝐦 𝐠𝐫𝐚𝐧𝐝𝐞 𝐝𝐢𝐟𝐞𝐫𝐞𝐧𝐜𝐢𝐚𝐥 𝐩𝐞𝐫𝐚𝐧𝐭𝐞 𝐚𝐨𝐬 𝐝𝐞𝐦𝐚𝐢𝐬 𝐜𝐚𝐧𝐝𝐢𝐝𝐚𝐭𝐨𝐬.
 Requisito: 𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨 𝐞 𝐥𝐢𝐬𝐭𝐚𝐠𝐞𝐦 𝐝𝐞 𝐩𝐫𝐨𝐝𝐮𝐭𝐨𝐬
 
-# 𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨:
+## 𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨:
 
 - Formulário com os campos abaixo:
 
@@ -17,12 +17,15 @@ Requisito: 𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨 𝐞 𝐥𝐢𝐬𝐭𝐚𝐠𝐞�
   - Valor do produto - campo de valor
   - Disponível para venda - campo com 2 opções: sim / não
 
-# 𝐋𝐢𝐬𝐭𝐚𝐠𝐞𝐦:
+## 𝐋𝐢𝐬𝐭𝐚𝐠𝐞𝐦:
 
 - Colunas da listagem: nome, valor
 - Ordenação por valor do menor para o maior
 - Quando cadastrar um novo produto é para abrir a listagem automaticamente
 - Deve existir um botão para cadastrar um novo produto a partir da listagem
+
+# O que e como foi feito:
+Um website com HTML, CSS e Javascript que amarzena os dados de forma local no navegador.
 
 
 ## Funcionalidades
@@ -33,9 +36,9 @@ Requisito: 𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨 𝐞 𝐥𝐢𝐬𝐭𝐚𝐠𝐞�
 
 ## Tecnologias Usadas
 
-- HTML
-- CSS
-- JavaScript
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Estrutura de Arquivos
 
